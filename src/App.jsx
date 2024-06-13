@@ -6,25 +6,25 @@ const App = () => {
   const [list, setList] = useState([
     {
       id:1,
-      title:"Guvi Task1",
+      Name:"Guvi Task1",
       description:"this is the description for my Guvi First task",
       status:"false"
     },
     {
       id:2,
-      title:"Guvi Task2",
+      Name:"Guvi Task2",
       description:"this is the description for my Guvi Second task",
       status:"true"
     },
     {
       id:3,
-      title:"Guvi task",
+      Name:"Guvi task",
       description:"this is the description for my Guvi Third task",
       status:"false"
     },
   ]);
  
-  const [title, setTitle] = useState("");
+  const [Name, setName] = useState("");
   const [des, setDes] = useState("");
   const [status, setStatus] = useState("Not Completed");
   const [edit, setedit] = useState(false);
@@ -34,8 +34,8 @@ const App = () => {
     <>
       <Input
         setList={setList}
-        title={title}
-        setTitle={setTitle}
+        Name={Name}
+        setName={setName}
         des={des}
         setDes={setDes}
         status={status}
