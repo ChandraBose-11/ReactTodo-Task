@@ -3,26 +3,7 @@ import Input from "./Components/Input/Input";
 import Card from "./Components/Card/Card";
 
 const App = () => {
-  const [list, setList] = useState([
-    {
-      id:1,
-      Name:"Guvi Task1",
-      description:"this is the description for my Guvi First task",
-      status:"false"
-    },
-    {
-      id:2,
-      Name:"Guvi Task2",
-      description:"this is the description for my Guvi Second task",
-      status:"true"
-    },
-    {
-      id:3,
-      Name:"Guvi task",
-      description:"this is the description for my Guvi Third task",
-      status:"false"
-    },
-  ]);
+  const [list, setList] = useState([]);
  
   const [Name, setName] = useState("");
   const [des, setDes] = useState("");
